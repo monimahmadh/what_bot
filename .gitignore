@@ -3,3 +3,9 @@ __pycache__/
 *.env
 *.json
 .env
+
+venv/
+*.venv/
+env/
+*.env/
+.whatsapp_bot_venv*/
