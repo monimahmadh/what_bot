@@ -19,22 +19,22 @@ This project automates sending WhatsApp messages using Python, Selenium, and Chr
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/whatsapp-automation-bot.git
+   https://github.com/monimahmadh/what_bot.git
    cd whatsapp-automation-bot
    ```
 2. Install required Python libraries:
    ```bash
    pip install -r requirements.txt
    ```
-3. Create a `.env` file in the root directory with the following content:
+3. Create a `.env` file in the root directory to store phone numbers:
    ```plaintext
    PHONE_NUMBERS=+8801878119442,+880164*****,+19758*****
    ```
 
-4. Create a `config.py` file to store your Chrome user data settings:
+4. Create a `config.py` file to store your Chrome user data settings. It will allow you to avoid re-scanning the QR code:
    ```python
    USER_DATA_DIR = r"C:\Users\YourUsername\AppData\Local\Google\Chrome\User Data"
-   PROFILE_DIRECTORY = "YourProfileDirectory"
+   PROFILE_DIRECTORY = "Profile 1"
    ```
 
 ---
